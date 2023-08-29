@@ -2,8 +2,8 @@
 
 /**
  * binary_tree_node - function creates a node
- * parent: pointer to the parent binary tree node
- * value: data part of node
+ * @parent: pointer to the parent binary tree node
+ * @value: data part of node
  *
  * Return: return a pointer to the created binary tree node
  */
