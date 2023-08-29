@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * int binary_tree_is_root - function checks if a node is root
+ * binary_tree_is_root - function checks if a node is root
  * @node: pointer to node to be checked
  *
  * Return: 1 for root, 0 otherwise/NULL
