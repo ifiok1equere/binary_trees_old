@@ -15,8 +15,6 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node)
 	if (node->parent->parent == NULL)
 		return (NULL);
 
-	/*printf("node: %d\n", node->n);
-	printf("node->parent->parent-left: %d\n", node->parent->parent->left->n);*/
 	if (node->parent->parent->left != node->parent)
 		return (node->parent->parent->left);
 	else
